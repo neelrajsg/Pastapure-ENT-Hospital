@@ -1,0 +1,241 @@
+body{
+    margin: 0px;
+}
+#headerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 0px;
+}
+#Imgtitle{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+#logo{
+    margin-top: 20px; 
+    margin-right: 5px; 
+    margin-left: 5px;
+    /* height="125px" ; */
+}
+#HeaderTitle>h1{
+ color: red;
+}
+#headerContact{
+    padding: 4px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 45px;
+    background-color: gray;
+    margin-bottom: 45px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+main{
+    background-image:url("https://greenvilleent.com/images/pages/ENT_Spiral_Background_Blue-Full.jpg") ;
+    background-repeat: no-repeat;
+}
+#section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin-top: x; */
+    /* padding: 25px; */
+    padding-bottom: 100px;
+    margin-left: 12px;
+}
+#section1Left{
+    font-size: 26px;
+    padding-right: 50px;
+}
+#section1Right{
+    margin-right: 50px;
+    margin-top: 50px;
+    color: white;
+}
+#section2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+}
+#section2Top{
+    font-size: 42px;
+    margin-bottom: 0px;
+}
+#section2Bottom{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 0px;
+    /* line-height: 3.5px; */
+}
+#section3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #dbe4ed;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.FacilitesSection{
+    padding: 15px;
+    border: 2px solid white;
+    outline: none;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    /* width: 64px;
+    height: 64px;
+    max-width: 100%; */
+}
+summary{
+    font-size: 22px;
+}
+.FacilitesSection>details>p{
+    padding: 12px ;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+#section4{
+    /* width: 100%; */
+    margin-top: 0px;
+    background-color: white;
+}
+#section5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+#section5left{
+    margin-left: 20px;
+}
+#section5right{
+    margin-right: 20px;
+}
+footer{
+    background-color: grey;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+@media screen and (max-width: 500px) {
+    #headerContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #Imgtitle{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+        font-size: small;
+        align-items: center;
+    }
+    #HeaderTitle>h1{
+     color: red;
+     font-size: small;
+     margin-bottom: 0px;
+    }
+    #headerContact{
+        padding: 1px;
+        width: auto;
+        /* margin-right: 25px; */
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        margin-top: 2px;
+        background-color: #dbe4ed;
+        margin-left: 15px;
+        margin-bottom: 0px;
+        /* margin-top: 45px; */
+        /* background-color: gray; */
+        /* margin-bottom: 45px; */
+        /* border: 1px solid gray; */
+        /* border-radius: 8px; */
+    }
+    #logo{
+        margin-top: 20px;
+        margin-right: 5px;
+        margin-left: 5px;
+        /* height="125px" ; */
+    }
+    main{
+        /* background-image: url("https://st3.depositphotos.com/1875497/13433/i/450/depositphotos_134334106-stock-photo-abstract-blur-hospital-and-clinic.jpg"); */
+        background-image:url("https://greenvilleent.com/images/pages/ENT_Spiral_Background_Blue-Full.jpg") ;
+        /* background-image:url("https://img.freepik.com/premium-photo/abstract-blur-beautiful-luxury-hospital-clinic-interior-background_103324-624.jpg") ; */
+        background-repeat: no-repeat;
+        width: auto ;
+        height: auto;
+    }
+    #section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* margin-top: x; */
+        /* padding: 25px; */
+        /* padding-bottom: 100px; */
+        margin-left: 12px;
+    }
+    #section1Left{
+        font-size: 16px;
+        color: black;
+        /* padding-right: 50px; */
+    }
+    #section1Right{
+        /* margin-right: 50px; */
+        /* margin-top: 50px; */
+        color:white ;
+        font-size: medium;
+        /* margin-bottom: 50px; */
+    }
+    #section2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0px;
+        background-color: white;
+        /* padding-bottom: 50px; */
+        margin-bottom: 0px;
+    }
+    #section3{
+        display: flex;
+        flex-direction: column;
+        /* grid-template-columns: auto auto auto; */
+        background-color: #dbe4ed;
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+    #section4{
+        width: 100%;
+        height: fit-content;
+        margin-top: 0px;
+        background-color: white;
+    }
+    #section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: antiquewhite;
+        margin-left: 5px;;
+    }
+    footer{
+        background-color: grey;
+        text-align: center;
+        padding: 5px;
+        color: white;
+    }
+}
